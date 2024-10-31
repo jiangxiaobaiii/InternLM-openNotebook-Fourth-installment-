@@ -79,7 +79,7 @@ res_json = json.loads(res)
 print(res_json)
 ```
 
-在尝试运行的时候发现程序报错于是进行断电debug
+在尝试运行的时候发现程序报错于是进行断点debug
 ![image331](https://github.com/jiangxiaobaiii/InternLM-openNotebook-Fourth-installmentnt/blob/main/%E5%85%A5%E9%97%A8%E5%B2%9B/%E7%AC%AC2%E5%85%B3Python%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/%E6%96%AD%E7%82%B9%E6%B5%8B%E8%AF%95%E7%BB%93%E6%9E%9C.png?raw=true)
 如上图所示报错在第30行处
 JSONDecodeError 是因为 res 的内容不符合 JSON 格式
